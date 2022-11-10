@@ -1,106 +1,55 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-    color: rgb(228, 233, 236);
-    text-transform: uppercase;
+  color: rgb(228, 233, 236);
+  padding-top: 50px;
+  text-transform: uppercase;
 }
 
 .fondo {
-    background: linear-gradient(to right, #52796f, #84a98c);
+  background: linear-gradient(to right, #52796f, #84a98c);
 }
-
-
-/*FOOTER*/
-
-footer {
-    margin-bottom: 0px;
-}
-
-.footerFondo {
-    background-color: #e1ebec;
-    height: auto;
-}
-
-.footerTexto {
-    font-family: Arial black;
-    color: #0b0c0b;
-}
-
-
-/*FAQ*/
 
 .preguntasFaq {
-    color: #2f3e46;
-    text-transform: uppercase;
-    font-size: 30px;
-    grid-area: faq;
+  color: #2f3e46;
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
-.faq {
-    grid-area: faq;
-}
-
-.faq1 {
-    grid-area: faq1;
-}
-
-.faq2 {
-    grid-area: faq2;
-}
-
-.faq3 {
-    grid-area: faq3;
-}
-
-.contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "faq faq faq" "faq1 faq2 faq3";
-}
-
-
-/*CONTACTO*/
-
-.negrita {
-    font-family: arial black;
-    color: aliceblue;
-    font-size: 22px;
-}
-
-
-/*PRODUCTOS*/
-
-.flexboxPadre {
-    justify-content: space-evenly;
-    display: flex;
-}
-
-.titulosProductos {
-    margin: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    color: aliceblue;
-    align-content: center;
-    animation-name: titulosProductos;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+.img-fluid {
+  display: flex;
+  margin: auto;
 }
 
 .animacion:hover {
-    transform: scale(1.1, 1.1);
-    transition: all 1.5s;
+  transform: scale(1.1, 1.1);
+  transition: all 1.5s;
 }
 
 @keyframes titulosProductos {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 100%;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
+footer {
+  margin-bottom: 0px;
+}
+
+.footerFondo {
+  background-color: #e9f2f3;
+  height: auto;
+}
+
+.footerTexto {
+  font-family: Arial black;
+  color: #0b0c0b;
+}
+
+/*# sourceMappingURL=style.css.map */

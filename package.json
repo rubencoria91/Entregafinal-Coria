@@ -1,0 +1,20 @@
+{
+    "name": "preentrega3coria",
+    "version": "1.0.0",
+    "description": "impresiones 3D, llaveros, mates, figuras, PLA, resina, 3D",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "sass --watch scss/style.scss css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rubencoria91/Preentrega2Coria.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rubencoria91/Preentrega2Coria/issues"
+    },
+    "homepage": "https://github.com/rubencoria91/Preentrega2Coria#readme"
+}

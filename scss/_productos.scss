@@ -1,0 +1,14 @@
+.flexboxPadre {
+    justify-content: space-evenly;
+    display: flex;
+    .titulosProductos {
+        margin: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color: aliceblue;
+        align-content: center;
+        animation-name: titulosProductos;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+}
